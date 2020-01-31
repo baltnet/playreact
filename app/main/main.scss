@@ -1,0 +1,65 @@
+/*!
+ * Copyright {2020} Baltnet Communications OÜ
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+html {
+	font-family: Helvetica, Verdana, sans-serif;
+
+	body {
+		margin: 0;
+
+		div {
+			display: grid;
+			grid-template-columns: 8em auto;
+			height: 100vh;
+
+			aside {
+				grid-column: 1;
+				background-color: #295e6b;
+				color: #fafafa;
+				padding: 1em;
+
+				ul {
+					list-style-type: none;
+					padding: 0;
+
+					li {
+						margin: 1em 0 1em 0;
+						text-align: center;
+
+						a {
+							color: #fafafa;
+							text-decoration: none;
+						}
+
+						a:hover {
+							color: #ffea00;
+						}
+
+						i.fas {
+							display: block;
+							font-size: 4em;
+						}
+					}
+				}
+			}
+
+			main {
+				grid-column: 2;
+				padding: 1em;
+			}
+		}
+	}
+}
