@@ -19,6 +19,7 @@ target
 # production
 /build
 /public/javascripts
+/null
 
 # misc
 .DS_Store
