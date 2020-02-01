@@ -32,7 +32,7 @@ object Webpack {
 	}
 
 	def dist(base: File): Unit = {
-		if (Process("npx webpack", base).! != 0) throw new Exception("Something goes wrong when running webpack.")
+		if (Process(npx + "webpack", base).! != 0) throw new Exception("Something goes wrong when running webpack.")
 	}
 
 	def npx(): String = {
