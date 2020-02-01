@@ -1,3 +1,4 @@
+import play.sbt.PlayRunHook
 import sbt.io.syntax.File
 
 import scala.sys.process.Process
